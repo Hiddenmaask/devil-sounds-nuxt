@@ -1,0 +1,18 @@
+{
+  "name": "devil-sounds-nuxt",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt build && nuxt export",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.6",
+    "nuxt": "^3.0.0",
+    "pinia": "^2.0.28",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.2.0"
+  }
+}
